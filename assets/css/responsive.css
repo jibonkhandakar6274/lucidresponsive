@@ -1,0 +1,226 @@
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+	p {
+		font-size: 14px;
+	}
+	.navbar-nav{
+		background: #15141a !important;
+		text-align: center;
+	}
+	
+	.banner-left-content h2 {
+		font-size: 30px;
+	}
+	a.btn1 {
+		padding: 10px 14px;
+		margin-top: 30px;
+		font-size: 14px;
+	}
+	a.btn2 {
+		padding: 10px 14px;
+		font-size: 14px;
+		margin-bottom: 40px;
+	}
+	.title h3 {
+		font-size: 26px;
+	}
+	.feature-inner-content p {
+		padding-bottom: 30px !important;
+	}
+	.feature-inner-content p:last-child{
+		padding-bottom: 0 !important;
+	}
+	#lucid-advertise {
+		text-align: center;
+	}
+	#lucid-advertise h4 {
+		font-size: 16px;
+		padding-bottom: 20px;
+	}
+	#lucid-advertise a.btn2 {
+		margin-left: 0;
+		margin-bottom: 0;
+	}
+	.lucid-pricing-inner .card {
+		margin-bottom: 25px;
+	}
+	.lucid-pricing-inner .card:last-child{
+		margin-bottom:0;
+	}
+	.contact-box {
+		padding-bottom: 20px !important;
+	}
+	.contact-form {
+		padding: 30px;
+		bottom: -100px;
+		width: 90%;
+	}
+	.contact-form .col-md-6 {
+		text-align: center !important;
+	}
+	.contact-form input {
+		padding: 10px 8px;
+		margin-bottom: 15px;
+	}
+	.contact-form .btn1 {
+		padding: 10px 20px;
+		font-size: 14px;
+	}
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+	p {
+		font-size: 14px;
+	}
+	.navbar-nav{
+		background: #15141a !important;
+		text-align: center;
+	}
+	
+	.banner-left-content h2 {
+		font-size: 30px;
+	}
+	a.btn1 {
+		padding: 10px 14px;
+		margin-top: 30px;
+		font-size: 14px;
+	}
+	a.btn2 {
+		padding: 10px 14px;
+		font-size: 14px;
+		margin-bottom: 40px;
+	}
+	.title h3 {
+		font-size: 26px;
+	}
+	.feature-inner-content p {
+		padding-bottom: 30px !important;
+	}
+
+	#lucid-advertise {
+		text-align: center;
+	}
+	#lucid-advertise h4 {
+		font-size: 16px;
+		padding-bottom: 20px;
+	}
+	#lucid-advertise a.btn2 {
+		margin-left: 0;
+		margin-bottom: 0;
+	}
+	.lucid-pricing-inner .card {
+		margin-bottom: 25px;
+	}
+	.contact-box {
+		padding-bottom: 20px !important;
+	}
+	.contact-form {
+		padding: 30px;
+		bottom: -100px;
+		width: 90%;
+	}
+	.contact-form .col-md-6 {
+		text-align: center !important;
+	}
+	.contact-form input {
+		padding: 10px 8px;
+		margin-bottom: 15px;
+	}
+	.contact-form .btn1 {
+		padding: 10px 20px;
+		font-size: 14px;
+	}
+}
+
+/* 
+// Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+	p {
+		font-size: 14px;
+	}
+	.navbar-nav{
+		background: #15141a !important;
+		text-align: center;
+	}
+	.banner-left-content h2 {
+		font-size: 30px;
+	}
+	a.btn1 {
+		padding: 10px 10px;
+		margin-top: 20px;
+	}
+	a.btn2 {
+		padding: 10px 10px;
+		margin-bottom: 30px;
+	}
+	.title h3 {
+		font-size: 30px;
+	}
+	.feature-inner-content h3 {
+		font-size: 22px;
+	}
+	#detail .title::before {
+		right: 80%;
+	}
+	#dip-into-detail .title::before {
+		right: 76%;
+	}
+	#lucid-advertise h4 {
+		color: #fff;
+		font-size: 20px;
+	}
+	#lucid-advertise a.btn2 {
+		margin-left: 0;
+		margin-bottom: 0;
+		padding: 10px 4px;
+		font-size: 14px;
+	}
+	#lucid-advertise a.btn1 {
+		margin-top: 0;
+		margin-left: 2px;
+		padding: 10px 4px;
+		font-size: 14px;
+	}
+	.card-header {
+		font-size: 20px;
+	}
+	.card-title span {
+		font-size: 45px;
+	}
+	.card-text a.btn2 {
+		padding: 7px 7px;
+		font-size: 14px;
+	}
+	.contact-form {
+		width: 78%;
+	}
+	.contact-form .btn1 {
+		padding: 12px 14px;
+	}
+}
+
+/* // Large devices (ipad pro, desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	.banner-left-content h2 {
+		font-size: 44px;
+	}
+	a.btn1 {
+		padding: 14px 14px;
+	}
+	a.btn2 {
+		padding: 14px 14px;
+	}
+	#detail .title::before {
+		right: 85%;
+	}
+	#dip-into-detail .title::before {
+		right: 82%;
+	}
+	#lucid-advertise h4 {
+		font-size: 26px;
+	}
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
